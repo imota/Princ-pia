@@ -21,7 +21,7 @@ public class Camera : MonoBehaviour
     void Update()
     {
         if (character) {
-            pos = character.transform.position + new Vector3(size / 2, size / 2, -10);
+            pos = character.transform.position + new Vector3(size / 2, size / 2, -9);
             if (pos.x < leftLimit) pos.x = leftLimit;
             if (pos.x > rightLimit) pos.x = rightLimit;
             if (pos.y < lowerLimit) pos.y = lowerLimit;
@@ -35,6 +35,6 @@ public class Camera : MonoBehaviour
         leftLimit = -5f;
         rightLimit = 3.4f;
         upperLimit = (float)1.27;
-        lowerLimit = -0.04f;
+        lowerLimit = -0.025f;
     }
 }
