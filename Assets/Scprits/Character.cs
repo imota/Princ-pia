@@ -3,9 +3,9 @@ using System.Collections;
 
 public class Character : MonoBehaviour
 {
+    public int la;
     public bool interacting = false;
     private CharacterMovement charMovement;
-    private int standartLayer;
 
     private bool grounded = false;          // Whether or not the player is grounded.
     private Transform groundCheck;          // A position marking where to check if the player is grounded.
@@ -62,5 +62,8 @@ public class Character : MonoBehaviour
         }
 
         charMovement.move = !interacting;
+        // The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
+        LayerMask l = 0;
+        grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << l);//LayerMask.NameToLayer("Layer3"));
     }
 }

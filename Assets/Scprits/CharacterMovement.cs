@@ -39,16 +39,38 @@ public class CharacterMovement : MonoBehaviour
         jumpButton =  "w";
         jumpButton2 = "joystick button 4";
 
-        bool grounded = true; //gameObject.GetComponent<CharacterScript>().isGrounded;
+        bool grounded = true;//gameObject.GetComponent<Character>().isGrounded;
 
         // If the jump button is pressed and the player is grounded then the player should jump.
         if ((Input.GetKeyDown(jumpButton) || Input.GetKeyDown(jumpButton2)) && grounded)
             jump = true;
 
-        if (jump) MovementState = "Jump";
-        else if (grounded && inputX == 0) MovementState = "Stop";
-        else if (grounded) MovementState = "Move";
-        else MovementState = "Fall";
+        GetComponent<Animator>().SetBool("Idle", false);
+        GetComponent<Animator>().SetBool("Walking", false);
+        GetComponent<Animator>().SetBool("Fall", false);
+
+        if (jump || GetComponent<Rigidbody2D>().velocity.y < -0.5)
+        {
+            MovementState = "Jump";
+            GetComponent<Animator>().SetBool("Jump", true);
+        }
+        else if (GetComponent<Rigidbody2D>().velocity.y > 0.2)
+        {
+            GetComponent<Animator>().SetBool("Fall", true);
+            MovementState = "Fall";
+        }
+        else if (grounded && inputX == 0)
+        {
+            MovementState = "Stop";
+            GetComponent<Animator>().SetBool("Idle", true);
+            GetComponent<Animator>().SetBool("Jump", false);
+        }
+        else if (grounded)
+        {
+            MovementState = "Move";
+            GetComponent<Animator>().SetBool("Walking", true);
+            GetComponent<Animator>().SetBool("Jump", false);
+        }
     }
 
     void FixedUpdate()
