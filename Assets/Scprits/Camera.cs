@@ -32,9 +32,9 @@ public class Camera : MonoBehaviour
 
     void DefaultLimits()
     {
-        leftLimit = -3.420351f;
+        leftLimit = -5f;
         rightLimit = 3.4f;
         upperLimit = (float)1.27;
-        lowerLimit = 0f;
+        lowerLimit = -0.04f;
     }
 }
