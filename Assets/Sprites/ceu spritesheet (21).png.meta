@@ -1,0 +1,393 @@
+fileFormatVersion: 2
+guid: 270d39c1157875244a80e2963b951d23
+timeCreated: 1467334028
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ceu spritesheet (21)_0
+    21300002: ceu spritesheet (21)_1
+    21300004: ceu spritesheet (21)_2
+    21300006: ceu spritesheet (21)_3
+    21300008: ceu spritesheet (21)_4
+    21300010: ceu spritesheet (21)_5
+    21300012: ceu spritesheet (21)_6
+    21300014: ceu spritesheet (21)_7
+    21300016: ceu spritesheet (21)_8
+    21300018: ceu spritesheet (21)_9
+    21300020: ceu spritesheet (21)_10
+    21300022: ceu spritesheet (21)_11
+    21300024: ceu spritesheet (21)_12
+    21300026: ceu spritesheet (21)_13
+    21300028: ceu spritesheet (21)_14
+    21300030: ceu spritesheet (21)_15
+    21300032: ceu spritesheet (21)_16
+    21300034: ceu spritesheet (21)_17
+    21300036: ceu spritesheet (21)_18
+    21300038: ceu spritesheet (21)_19
+    21300040: ceu spritesheet (21)_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ceu spritesheet (21)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_2
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_3
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_4
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_5
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_6
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_7
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_8
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_9
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_10
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_11
+      rect:
+        serializedVersion: 2
+        x: 3751
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_12
+      rect:
+        serializedVersion: 2
+        x: 4092
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_13
+      rect:
+        serializedVersion: 2
+        x: 4433
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_14
+      rect:
+        serializedVersion: 2
+        x: 4774
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_15
+      rect:
+        serializedVersion: 2
+        x: 5115
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_16
+      rect:
+        serializedVersion: 2
+        x: 5456
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_17
+      rect:
+        serializedVersion: 2
+        x: 5797
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_18
+      rect:
+        serializedVersion: 2
+        x: 6138
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_19
+      rect:
+        serializedVersion: 2
+        x: 6479
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    - name: ceu spritesheet (21)_20
+      rect:
+        serializedVersion: 2
+        x: 6820
+        y: 0
+        width: 341
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 128.5}
+        - {x: -170.5, y: -128.5}
+        - {x: 170.5, y: -128.5}
+        - {x: 170.5, y: 128.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
