@@ -1,9 +1,15 @@
 fileFormatVersion: 2
 guid: 1bdfd9f70489e7044905076c15323408
-timeCreated: 1467354051
+timeCreated: 1467354568
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: spritesheet lampiao (6)_0
+    21300002: spritesheet lampiao (6)_1
+    21300004: spritesheet lampiao (6)_2
+    21300006: spritesheet lampiao (6)_3
+    21300008: spritesheet lampiao (6)_4
+    21300010: spritesheet lampiao (6)_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,27 +35,271 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: spritesheet lampiao (6)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 154
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75, y: -41}
+        - {x: 71, y: -40}
+        - {x: 59, y: -40}
+        - {x: 55, y: -44}
+        - {x: 55, y: -56}
+        - {x: 56, y: -62}
+        - {x: 74, y: -62}
+        - {x: 76, y: -59}
+        - {x: 77, y: -58}
+        - {x: 77, y: -45}
+      - - {x: -25, y: 15}
+        - {x: 5, y: 15}
+        - {x: 59, y: 39}
+        - {x: 59, y: 49}
+        - {x: 58, y: 52}
+        - {x: 47, y: 62}
+        - {x: -17, y: 62}
+        - {x: -25, y: 57}
+      - - {x: -77, y: 62}
+        - {x: -77, y: 40}
+        - {x: -47, y: 40}
+        - {x: -22, y: 44}
+        - {x: -16, y: 56}
+        - {x: -16, y: 62}
+      - - {x: 51, y: 47}
+        - {x: 50, y: 45}
+        - {x: 50, y: 42}
+        - {x: 52, y: 41}
+        - {x: 64, y: 41}
+        - {x: 65, y: 43}
+        - {x: 65, y: 46}
+        - {x: 63, y: 47}
+    - name: spritesheet lampiao (6)_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 154
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75, y: -41}
+        - {x: 71, y: -40}
+        - {x: 59, y: -40}
+        - {x: 55, y: -44}
+        - {x: 55, y: -56}
+        - {x: 56, y: -62}
+        - {x: 74, y: -62}
+        - {x: 76, y: -59}
+        - {x: 77, y: -58}
+        - {x: 77, y: -45}
+      - - {x: -18, y: 62}
+        - {x: -25, y: 46}
+        - {x: -25, y: 30}
+        - {x: -22, y: 15}
+        - {x: -12, y: 15}
+        - {x: 62, y: 39}
+        - {x: 62, y: 54}
+        - {x: 44, y: 62}
+      - - {x: -75, y: 62}
+        - {x: -77, y: 60}
+        - {x: -77, y: 39}
+        - {x: -73, y: 39}
+        - {x: -64, y: 41}
+        - {x: -23, y: 46}
+        - {x: -16, y: 56}
+        - {x: -16, y: 62}
+      - - {x: 50, y: 47}
+        - {x: 50, y: 43}
+        - {x: 51, y: 41}
+        - {x: 71, y: 41}
+        - {x: 71, y: 47}
+    - name: spritesheet lampiao (6)_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 154
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: -40}
+        - {x: 55, y: -45}
+        - {x: 55, y: -61}
+        - {x: 58, y: -62}
+        - {x: 75, y: -62}
+        - {x: 77, y: -58}
+        - {x: 77, y: -46}
+        - {x: 71, y: -40}
+      - - {x: -21, y: 62}
+        - {x: -25, y: 48}
+        - {x: -25, y: 15}
+        - {x: 4, y: 15}
+        - {x: 64, y: 40}
+        - {x: 64, y: 57}
+        - {x: 62, y: 62}
+      - - {x: -77, y: 62}
+        - {x: -77, y: 39}
+        - {x: -35, y: 39}
+        - {x: -16, y: 47}
+        - {x: -16, y: 62}
+      - - {x: 50, y: 47}
+        - {x: 50, y: 41}
+        - {x: 77, y: 41}
+        - {x: 77, y: 47}
+    - name: spritesheet lampiao (6)_3
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 154
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75, y: -41}
+        - {x: 71, y: -40}
+        - {x: 59, y: -40}
+        - {x: 55, y: -44}
+        - {x: 55, y: -56}
+        - {x: 56, y: -62}
+        - {x: 74, y: -62}
+        - {x: 76, y: -59}
+        - {x: 77, y: -58}
+        - {x: 77, y: -45}
+      - - {x: -18, y: 62}
+        - {x: -25, y: 46}
+        - {x: -25, y: 30}
+        - {x: -22, y: 15}
+        - {x: -12, y: 15}
+        - {x: 62, y: 39}
+        - {x: 62, y: 54}
+        - {x: 44, y: 62}
+      - - {x: -75, y: 62}
+        - {x: -77, y: 60}
+        - {x: -77, y: 39}
+        - {x: -73, y: 39}
+        - {x: -64, y: 41}
+        - {x: -23, y: 46}
+        - {x: -16, y: 56}
+        - {x: -16, y: 62}
+      - - {x: 50, y: 47}
+        - {x: 50, y: 43}
+        - {x: 51, y: 41}
+        - {x: 71, y: 41}
+        - {x: 71, y: 47}
+    - name: spritesheet lampiao (6)_4
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 154
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75, y: -41}
+        - {x: 71, y: -40}
+        - {x: 59, y: -40}
+        - {x: 55, y: -44}
+        - {x: 55, y: -56}
+        - {x: 56, y: -62}
+        - {x: 74, y: -62}
+        - {x: 76, y: -59}
+        - {x: 77, y: -58}
+        - {x: 77, y: -45}
+      - - {x: -18, y: 62}
+        - {x: -25, y: 46}
+        - {x: -25, y: 30}
+        - {x: -22, y: 15}
+        - {x: -12, y: 15}
+        - {x: 62, y: 39}
+        - {x: 62, y: 54}
+        - {x: 44, y: 62}
+      - - {x: -75, y: 62}
+        - {x: -77, y: 60}
+        - {x: -77, y: 39}
+        - {x: -73, y: 39}
+        - {x: -64, y: 41}
+        - {x: -23, y: 46}
+        - {x: -16, y: 56}
+        - {x: -16, y: 62}
+      - - {x: 50, y: 47}
+        - {x: 50, y: 43}
+        - {x: 51, y: 41}
+        - {x: 71, y: 41}
+        - {x: 71, y: 47}
+    - name: spritesheet lampiao (6)_5
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 154
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: -40}
+        - {x: 55, y: -45}
+        - {x: 55, y: -61}
+        - {x: 58, y: -62}
+        - {x: 75, y: -62}
+        - {x: 77, y: -58}
+        - {x: 77, y: -46}
+        - {x: 71, y: -40}
+      - - {x: -18, y: 62}
+        - {x: -25, y: 46}
+        - {x: -25, y: 30}
+        - {x: -22, y: 15}
+        - {x: -12, y: 15}
+        - {x: 62, y: 39}
+        - {x: 62, y: 54}
+        - {x: 44, y: 62}
+      - - {x: -75, y: 62}
+        - {x: -77, y: 60}
+        - {x: -77, y: 39}
+        - {x: -73, y: 39}
+        - {x: -64, y: 41}
+        - {x: -23, y: 46}
+        - {x: -16, y: 56}
+        - {x: -16, y: 62}
+      - - {x: 50, y: 47}
+        - {x: 50, y: 43}
+        - {x: 51, y: 41}
+        - {x: 71, y: 41}
+        - {x: 71, y: 47}
     outline: []
   spritePackingTag: 
   userData: 
