@@ -18,7 +18,7 @@ public class Follow : MonoBehaviour
         UpdatePosition();
     }
 
-    void Update()
+    void LateUpdate()
     {
         UpdatePosition();
     }

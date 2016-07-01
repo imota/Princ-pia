@@ -7,7 +7,7 @@ public class Daytime : MonoBehaviour {
     public float night_time;
 
 	void Update () {
-        Animator animator = GetComponent< Animator>() ;
+        Animator animator = GetComponent<Animator>() ;
         if (character.transform.position.x > night_time)
         {
             if (animator.GetBool("Night") == false)

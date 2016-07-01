@@ -37,7 +37,7 @@ public class CharacterMovement : MonoBehaviour
 
         //Retrieve the y-axis information
         jumpButton =  "w";
-        jumpButton2 = "joystick button 4";
+        jumpButton2 = "joystick button 0";
 
         bool grounded = true;//gameObject.GetComponent<Character>().isGrounded;
 
