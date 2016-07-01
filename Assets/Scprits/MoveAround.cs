@@ -21,11 +21,14 @@ public class MoveAround : MonoBehaviour {
     }
 
     void Update() {
-        if (Vector2.Distance((Vector2)transform.position, CurrentDestination()) <= Mathf.Epsilon)
+        if (Vector2.Distance((Vector2)transform.position, CurrentDestination()) <= Mathf.Epsilon) {
             moving_to_checkpoint = !moving_to_checkpoint;
+            SpriteRenderer sr = GetComponent<SpriteRenderer>();
+            sr.flipX = !sr.flipX;
+        }
         else {
             Vector2 dst_point = Vector2.MoveTowards(transform.position,
-                CurrentDestination(), speed*Time.deltaTime);
+                CurrentDestination(), speed * Time.deltaTime);
             if (has_rigidbody)
                 rb.MovePosition(dst_point);
             else
