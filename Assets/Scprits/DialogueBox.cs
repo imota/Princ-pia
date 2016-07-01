@@ -24,7 +24,7 @@ public class DialogueBox : MonoBehaviour {
         if (message_list.Count == 0)
             message_list.Add("Default msg");
         gameObject.SetActive(false);
-        Invoke("TriggerDialogue", 1f);
+        Invoke("TriggerDialogue", 3f);
     }
 
     void Update() {
