@@ -9,24 +9,30 @@ public class Attack : MonoBehaviour {
 
     void Start()
     {
-        //timer.Set(time);
+        timer = GetComponent<Timer>();
     }
 
-	void LateUpdate()
+	void Update()
     {
-        if (Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 2"))
+        if (!attack && (Input.GetKeyDown("space") || Input.GetKeyDown("joystick button 2")))
         {
             attack = true;
-            //timer.Set(time);
+            GetComponent<Animator>().SetBool("Attack", true);
+            timer.Set(time);
         }
-        if (true)//timer.IsOver() == false)
+        if (timer.IsOver() == false && attack)
         {
-            //timer.Run();
+            timer.Run();
             GetComponent<Animator>().SetBool("Idle", false);
             GetComponent<Animator>().SetBool("Walking", false);
             GetComponent<Animator>().SetBool("Fall", false);
             GetComponent<Animator>().SetBool("Jump", false);
-            GetComponent<Animator>().SetBool("Attack", true);
+        }
+        else
+        {
+            attack = false;
+            timer.Reset();
+            GetComponent<Animator>().SetBool("Attack", false);
         }
     }
 }

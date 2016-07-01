@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Timer
+public class Timer : MonoBehaviour
 {
     private float time;
     private float elapsedTime = 0;
