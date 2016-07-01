@@ -24,11 +24,12 @@ public class DialogueBox : MonoBehaviour {
         if (message_list.Count == 0)
             message_list.Add("Default msg");
         gameObject.SetActive(false);
+        Invoke("TriggerDialogue", 1f);
     }
 
     void Update() {
         if (showing) {
-            if (Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetButtonDown("Fire2"))
                 ChangeToNextMessage();
         }
     }
@@ -36,6 +37,7 @@ public class DialogueBox : MonoBehaviour {
     private void ChangeToNextMessage() {
         if (current_message >= message_list.Count - 1) {
             showing = false;
+            gameObject.SetActive(false);
         }
         else {
             current_message++;
